@@ -1,0 +1,5 @@
+/*pager*/
+ul.yiiPager li{display:inline;padding:0px;margin:0px;border:none;}
+ul.yiiPager a:link,ul.yiiPager a:visited{border:solid 1px #BFD6ED;float:left;display:block;line-height:16px;}
+ul.yiiPager .selected a{background:#FC6;font-weight:bold;}
+ul.yiiPager .hidden a{border:solid 1px #DEDEDE;color:#888888;}

@@ -1,0 +1,835 @@
+2014/04/02 09:19:14 [error] [exception.CException] exception 'CException' with message 'Property "Provinces.getProvincesList" is not defined.' in D:\phpStudy\WWW\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\phpStudy\WWW\framework\db\ar\CActiveRecord.php(145): CComponent->__get('getProvincesLis...')
+#1 D:\phpStudy\WWW\usho\protected\modules\admin\views\school\add.php(65): CActiveRecord->__get('getProvincesLis...')
+#2 D:\phpStudy\WWW\framework\web\CBaseController.php(126): require('D:\phpStudy\WWW...')
+#3 D:\phpStudy\WWW\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\phpStudy\WWW...', Array, true)
+#4 D:\phpStudy\WWW\framework\web\CController.php(869): CBaseController->renderFile('D:\phpStudy\WWW...', Array, true)
+#5 D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php(46): CController->renderPartial('add', Array)
+#6 D:\phpStudy\WWW\framework\web\actions\CInlineAction.php(49): SchoolController->actionAdd()
+#7 D:\phpStudy\WWW\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 D:\phpStudy\WWW\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 D:\phpStudy\WWW\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\phpStudy\WWW\framework\web\CWebApplication.php(282): CController->run('add')
+#11 D:\phpStudy\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/school/ad...')
+#12 D:\phpStudy\WWW\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\phpStudy\WWW\usho\index.php(14): CApplication->run()
+#14 {main}
+REQUEST_URI=/usho/index.php?r=admin/school/add
+HTTP_REFERER=http://localhost/usho/index.php?r=admin/school/show
+---
+2014/04/02 09:23:04 [error] [exception.CException] exception 'CException' with message 'Property "School.provinces" is not defined.' in D:\phpStudy\WWW\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\phpStudy\WWW\framework\db\ar\CActiveRecord.php(145): CComponent->__get('provinces')
+#1 D:\phpStudy\WWW\usho\protected\modules\admin\views\school\add.php(80): CActiveRecord->__get('provinces')
+#2 D:\phpStudy\WWW\framework\web\CBaseController.php(126): require('D:\phpStudy\WWW...')
+#3 D:\phpStudy\WWW\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\phpStudy\WWW...', Array, true)
+#4 D:\phpStudy\WWW\framework\web\CController.php(869): CBaseController->renderFile('D:\phpStudy\WWW...', Array, true)
+#5 D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php(46): CController->renderPartial('add', Array)
+#6 D:\phpStudy\WWW\framework\web\actions\CInlineAction.php(49): SchoolController->actionAdd()
+#7 D:\phpStudy\WWW\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 D:\phpStudy\WWW\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 D:\phpStudy\WWW\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\phpStudy\WWW\framework\web\CWebApplication.php(282): CController->run('add')
+#11 D:\phpStudy\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/school/ad...')
+#12 D:\phpStudy\WWW\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\phpStudy\WWW\usho\index.php(14): CApplication->run()
+#14 {main}
+REQUEST_URI=/usho/index.php?r=admin/school/add
+HTTP_REFERER=http://localhost/usho/index.php?r=admin/school/show
+---
+2014/04/02 09:23:43 [error] [exception.CException] exception 'CException' with message 'Property "School.province_id" is not defined.' in D:\phpStudy\WWW\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\phpStudy\WWW\framework\db\ar\CActiveRecord.php(145): CComponent->__get('province_id')
+#1 D:\phpStudy\WWW\usho\protected\modules\admin\views\school\add.php(80): CActiveRecord->__get('province_id')
+#2 D:\phpStudy\WWW\framework\web\CBaseController.php(126): require('D:\phpStudy\WWW...')
+#3 D:\phpStudy\WWW\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\phpStudy\WWW...', Array, true)
+#4 D:\phpStudy\WWW\framework\web\CController.php(869): CBaseController->renderFile('D:\phpStudy\WWW...', Array, true)
+#5 D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php(46): CController->renderPartial('add', Array)
+#6 D:\phpStudy\WWW\framework\web\actions\CInlineAction.php(49): SchoolController->actionAdd()
+#7 D:\phpStudy\WWW\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 D:\phpStudy\WWW\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 D:\phpStudy\WWW\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\phpStudy\WWW\framework\web\CWebApplication.php(282): CController->run('add')
+#11 D:\phpStudy\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/school/ad...')
+#12 D:\phpStudy\WWW\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\phpStudy\WWW\usho\index.php(14): CApplication->run()
+#14 {main}
+REQUEST_URI=/usho/index.php?r=admin/school/add
+HTTP_REFERER=http://localhost/usho/index.php?r=admin/school/show
+---
+2014/04/02 09:24:48 [error] [exception.CException] exception 'CException' with message 'School and its behaviors do not have a method or closure named "getCitiesList".' in D:\phpStudy\WWW\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\phpStudy\WWW\framework\db\ar\CActiveRecord.php(227): CComponent->__call('getCitiesList', Array)
+#1 D:\phpStudy\WWW\usho\protected\modules\admin\views\school\add.php(80): CActiveRecord->__call('getCitiesList', Array)
+#2 D:\phpStudy\WWW\usho\protected\modules\admin\views\school\add.php(80): School->getCitiesList(NULL)
+#3 D:\phpStudy\WWW\framework\web\CBaseController.php(126): require('D:\phpStudy\WWW...')
+#4 D:\phpStudy\WWW\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\phpStudy\WWW...', Array, true)
+#5 D:\phpStudy\WWW\framework\web\CController.php(869): CBaseController->renderFile('D:\phpStudy\WWW...', Array, true)
+#6 D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php(46): CController->renderPartial('add', Array)
+#7 D:\phpStudy\WWW\framework\web\actions\CInlineAction.php(49): SchoolController->actionAdd()
+#8 D:\phpStudy\WWW\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\phpStudy\WWW\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\phpStudy\WWW\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\phpStudy\WWW\framework\web\CWebApplication.php(282): CController->run('add')
+#12 D:\phpStudy\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/school/ad...')
+#13 D:\phpStudy\WWW\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\phpStudy\WWW\usho\index.php(14): CApplication->run()
+#15 {main}
+REQUEST_URI=/usho/index.php?r=admin/school/add
+HTTP_REFERER=http://localhost/usho/index.php?r=admin/school/show
+---
+2014/04/02 11:07:38 [error] [php] Missing argument 1 for Cities::getCitiesList(), called in D:\phpStudy\WWW\usho\protected\modules\admin\views\school\add.php on line 80 and defined (D:\phpStudy\WWW\usho\protected\models\Cities.php:16)
+Stack trace:
+#0 D:\phpStudy\WWW\framework\web\CBaseController.php(95): SchoolController->renderInternal()
+#1 D:\phpStudy\WWW\framework\web\CController.php(869): SchoolController->renderFile()
+#2 D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php(46): SchoolController->renderPartial()
+#3 D:\phpStudy\WWW\framework\web\actions\CInlineAction.php(49): SchoolController->actionAdd()
+#4 D:\phpStudy\WWW\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\phpStudy\WWW\framework\web\CController.php(286): SchoolController->runAction()
+#6 D:\phpStudy\WWW\framework\web\CController.php(265): SchoolController->runActionWithFilters()
+#7 D:\phpStudy\WWW\framework\web\CWebApplication.php(282): SchoolController->run()
+#8 D:\phpStudy\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\phpStudy\WWW\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\phpStudy\WWW\usho\index.php(14): CWebApplication->run()
+REQUEST_URI=/usho/index.php?r=admin/school/add
+in D:\phpStudy\WWW\usho\protected\models\Cities.php (16)
+in D:\phpStudy\WWW\usho\protected\modules\admin\views\school\add.php (80)
+in D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php (46)
+2014/04/02 11:08:14 [error] [php] Undefined variable: province_id (D:\phpStudy\WWW\usho\protected\modules\admin\views\school\add.php:80)
+Stack trace:
+#0 D:\phpStudy\WWW\framework\web\CController.php(869): SchoolController->renderFile()
+#1 D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php(46): SchoolController->renderPartial()
+#2 D:\phpStudy\WWW\framework\web\actions\CInlineAction.php(49): SchoolController->actionAdd()
+#3 D:\phpStudy\WWW\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\phpStudy\WWW\framework\web\CController.php(286): SchoolController->runAction()
+#5 D:\phpStudy\WWW\framework\web\CController.php(265): SchoolController->runActionWithFilters()
+#6 D:\phpStudy\WWW\framework\web\CWebApplication.php(282): SchoolController->run()
+#7 D:\phpStudy\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\phpStudy\WWW\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\phpStudy\WWW\usho\index.php(14): CWebApplication->run()
+REQUEST_URI=/usho/index.php?r=admin/school/add
+in D:\phpStudy\WWW\usho\protected\modules\admin\views\school\add.php (80)
+in D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php (46)
+in D:\phpStudy\WWW\usho\index.php (14)
+2014/04/02 11:08:49 [error] [php] Undefined variable: provinces_id (D:\phpStudy\WWW\usho\protected\modules\admin\views\school\add.php:80)
+Stack trace:
+#0 D:\phpStudy\WWW\framework\web\CController.php(869): SchoolController->renderFile()
+#1 D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php(46): SchoolController->renderPartial()
+#2 D:\phpStudy\WWW\framework\web\actions\CInlineAction.php(49): SchoolController->actionAdd()
+#3 D:\phpStudy\WWW\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\phpStudy\WWW\framework\web\CController.php(286): SchoolController->runAction()
+#5 D:\phpStudy\WWW\framework\web\CController.php(265): SchoolController->runActionWithFilters()
+#6 D:\phpStudy\WWW\framework\web\CWebApplication.php(282): SchoolController->run()
+#7 D:\phpStudy\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\phpStudy\WWW\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\phpStudy\WWW\usho\index.php(14): CWebApplication->run()
+REQUEST_URI=/usho/index.php?r=admin/school/add
+in D:\phpStudy\WWW\usho\protected\modules\admin\views\school\add.php (80)
+in D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php (46)
+in D:\phpStudy\WWW\usho\index.php (14)
+2014/04/02 11:09:18 [error] [php] Undefined variable: province_id (D:\phpStudy\WWW\usho\protected\modules\admin\views\school\add.php:80)
+Stack trace:
+#0 D:\phpStudy\WWW\framework\web\CController.php(869): SchoolController->renderFile()
+#1 D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php(46): SchoolController->renderPartial()
+#2 D:\phpStudy\WWW\framework\web\actions\CInlineAction.php(49): SchoolController->actionAdd()
+#3 D:\phpStudy\WWW\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\phpStudy\WWW\framework\web\CController.php(286): SchoolController->runAction()
+#5 D:\phpStudy\WWW\framework\web\CController.php(265): SchoolController->runActionWithFilters()
+#6 D:\phpStudy\WWW\framework\web\CWebApplication.php(282): SchoolController->run()
+#7 D:\phpStudy\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\phpStudy\WWW\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\phpStudy\WWW\usho\index.php(14): CWebApplication->run()
+REQUEST_URI=/usho/index.php?r=admin/school/add
+in D:\phpStudy\WWW\usho\protected\modules\admin\views\school\add.php (80)
+in D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php (46)
+in D:\phpStudy\WWW\usho\index.php (14)
+2014/04/02 11:14:19 [error] [exception.CException] exception 'CException' with message 'Cities and its behaviors do not have a method or closure named "findAllPk".' in D:\phpStudy\WWW\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\phpStudy\WWW\framework\db\ar\CActiveRecord.php(227): CComponent->__call('findAllPk', Array)
+#1 D:\phpStudy\WWW\usho\protected\models\Cities.php(17): CActiveRecord->__call('findAllPk', Array)
+#2 D:\phpStudy\WWW\usho\protected\models\Cities.php(17): Cities->findAllPk('select * from c...', Array)
+#3 D:\phpStudy\WWW\usho\protected\modules\admin\views\school\add.php(80): Cities->getCitiesList(NULL)
+#4 D:\phpStudy\WWW\framework\web\CBaseController.php(126): require('D:\phpStudy\WWW...')
+#5 D:\phpStudy\WWW\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\phpStudy\WWW...', Array, true)
+#6 D:\phpStudy\WWW\framework\web\CController.php(869): CBaseController->renderFile('D:\phpStudy\WWW...', Array, true)
+#7 D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php(46): CController->renderPartial('add', Array)
+#8 D:\phpStudy\WWW\framework\web\actions\CInlineAction.php(49): SchoolController->actionAdd()
+#9 D:\phpStudy\WWW\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\phpStudy\WWW\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 D:\phpStudy\WWW\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\phpStudy\WWW\framework\web\CWebApplication.php(282): CController->run('add')
+#13 D:\phpStudy\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/school/ad...')
+#14 D:\phpStudy\WWW\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 D:\phpStudy\WWW\usho\index.php(14): CApplication->run()
+#16 {main}
+REQUEST_URI=/usho/index.php?r=admin/school/add
+HTTP_REFERER=http://localhost/usho/index.php?r=admin/school/show
+---
+2014/04/02 11:14:42 [error] [exception.CException] exception 'CException' with message 'Cities and its behaviors do not have a method or closure named "findAllSql".' in D:\phpStudy\WWW\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\phpStudy\WWW\framework\db\ar\CActiveRecord.php(227): CComponent->__call('findAllSql', Array)
+#1 D:\phpStudy\WWW\usho\protected\models\Cities.php(17): CActiveRecord->__call('findAllSql', Array)
+#2 D:\phpStudy\WWW\usho\protected\models\Cities.php(17): Cities->findAllSql('select * from c...', Array)
+#3 D:\phpStudy\WWW\usho\protected\modules\admin\views\school\add.php(80): Cities->getCitiesList(NULL)
+#4 D:\phpStudy\WWW\framework\web\CBaseController.php(126): require('D:\phpStudy\WWW...')
+#5 D:\phpStudy\WWW\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\phpStudy\WWW...', Array, true)
+#6 D:\phpStudy\WWW\framework\web\CController.php(869): CBaseController->renderFile('D:\phpStudy\WWW...', Array, true)
+#7 D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php(46): CController->renderPartial('add', Array)
+#8 D:\phpStudy\WWW\framework\web\actions\CInlineAction.php(49): SchoolController->actionAdd()
+#9 D:\phpStudy\WWW\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\phpStudy\WWW\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 D:\phpStudy\WWW\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\phpStudy\WWW\framework\web\CWebApplication.php(282): CController->run('add')
+#13 D:\phpStudy\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/school/ad...')
+#14 D:\phpStudy\WWW\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 D:\phpStudy\WWW\usho\index.php(14): CApplication->run()
+#16 {main}
+REQUEST_URI=/usho/index.php?r=admin/school/add
+HTTP_REFERER=http://localhost/usho/index.php?r=admin/school/show
+---
+2014/04/02 11:16:45 [error] [exception.CException] exception 'CException' with message 'Property "CDbCriteria.0" is not defined.' in D:\phpStudy\WWW\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\phpStudy\WWW\framework\db\schema\CDbCriteria.php(160): CComponent->__set('0', NULL)
+#1 D:\phpStudy\WWW\framework\db\schema\CDbCommandBuilder.php(585): CDbCriteria->__construct(Array)
+#2 D:\phpStudy\WWW\framework\db\schema\CDbCommandBuilder.php(614): CDbCommandBuilder->createCriteria(Array, Array)
+#3 D:\phpStudy\WWW\framework\db\ar\CActiveRecord.php(1501): CDbCommandBuilder->createPkCriteria(Object(CMysqlTableSchema), 'select * from c...', Array, Array, '`t`.')
+#4 D:\phpStudy\WWW\usho\protected\models\Cities.php(17): CActiveRecord->findAllByPk('select * from c...', Array)
+#5 D:\phpStudy\WWW\usho\protected\modules\admin\views\school\add.php(80): Cities->getCitiesList(NULL)
+#6 D:\phpStudy\WWW\framework\web\CBaseController.php(126): require('D:\phpStudy\WWW...')
+#7 D:\phpStudy\WWW\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\phpStudy\WWW...', Array, true)
+#8 D:\phpStudy\WWW\framework\web\CController.php(869): CBaseController->renderFile('D:\phpStudy\WWW...', Array, true)
+#9 D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php(46): CController->renderPartial('add', Array)
+#10 D:\phpStudy\WWW\framework\web\actions\CInlineAction.php(49): SchoolController->actionAdd()
+#11 D:\phpStudy\WWW\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 D:\phpStudy\WWW\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 D:\phpStudy\WWW\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 D:\phpStudy\WWW\framework\web\CWebApplication.php(282): CController->run('add')
+#15 D:\phpStudy\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/school/ad...')
+#16 D:\phpStudy\WWW\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 D:\phpStudy\WWW\usho\index.php(14): CApplication->run()
+#18 {main}
+REQUEST_URI=/usho/index.php?r=admin/school/add
+HTTP_REFERER=http://localhost/usho/index.php?r=admin/school/show
+---
+2014/04/02 11:18:34 [error] [exception.CException] exception 'CException' with message 'Property "CDbCriteria.0" is not defined.' in D:\phpStudy\WWW\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\phpStudy\WWW\framework\db\schema\CDbCriteria.php(160): CComponent->__set('0', NULL)
+#1 D:\phpStudy\WWW\framework\db\schema\CDbCommandBuilder.php(585): CDbCriteria->__construct(Array)
+#2 D:\phpStudy\WWW\framework\db\schema\CDbCommandBuilder.php(661): CDbCommandBuilder->createCriteria(Array, Array)
+#3 D:\phpStudy\WWW\framework\db\ar\CActiveRecord.php(1535): CDbCommandBuilder->createColumnCriteria(Object(CMysqlTableSchema), 'select * from c...', Array, Array, '`t`.')
+#4 D:\phpStudy\WWW\usho\protected\models\Cities.php(17): CActiveRecord->findAllByAttributes('select * from c...', Array)
+#5 D:\phpStudy\WWW\usho\protected\modules\admin\views\school\add.php(80): Cities->getCitiesList(NULL)
+#6 D:\phpStudy\WWW\framework\web\CBaseController.php(126): require('D:\phpStudy\WWW...')
+#7 D:\phpStudy\WWW\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\phpStudy\WWW...', Array, true)
+#8 D:\phpStudy\WWW\framework\web\CController.php(869): CBaseController->renderFile('D:\phpStudy\WWW...', Array, true)
+#9 D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php(46): CController->renderPartial('add', Array)
+#10 D:\phpStudy\WWW\framework\web\actions\CInlineAction.php(49): SchoolController->actionAdd()
+#11 D:\phpStudy\WWW\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 D:\phpStudy\WWW\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 D:\phpStudy\WWW\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 D:\phpStudy\WWW\framework\web\CWebApplication.php(282): CController->run('add')
+#15 D:\phpStudy\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/school/ad...')
+#16 D:\phpStudy\WWW\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 D:\phpStudy\WWW\usho\index.php(14): CApplication->run()
+#18 {main}
+REQUEST_URI=/usho/index.php?r=admin/school/add
+HTTP_REFERER=http://localhost/usho/index.php?r=admin/school/show
+---
+2014/04/02 11:18:57 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: SELECT * FROM `cities` `t` WHERE select * from cities where province_id=?.
+in D:\phpStudy\WWW\usho\protected\models\Cities.php (17)
+in D:\phpStudy\WWW\usho\protected\modules\admin\views\school\add.php (80)
+in D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php (46)
+2014/04/02 11:18:57 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: SELECT * FROM `cities` `t` WHERE select * from cities where province_id=?' in D:\phpStudy\WWW\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\phpStudy\WWW\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\phpStudy\WWW\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryAll()
+#2 D:\phpStudy\WWW\framework\db\ar\CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\phpStudy\WWW\usho\protected\models\Cities.php(17): CActiveRecord->findAll('select * from c...', Array)
+#4 D:\phpStudy\WWW\usho\protected\modules\admin\views\school\add.php(80): Cities->getCitiesList(NULL)
+#5 D:\phpStudy\WWW\framework\web\CBaseController.php(126): require('D:\phpStudy\WWW...')
+#6 D:\phpStudy\WWW\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\phpStudy\WWW...', Array, true)
+#7 D:\phpStudy\WWW\framework\web\CController.php(869): CBaseController->renderFile('D:\phpStudy\WWW...', Array, true)
+#8 D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php(46): CController->renderPartial('add', Array)
+#9 D:\phpStudy\WWW\framework\web\actions\CInlineAction.php(49): SchoolController->actionAdd()
+#10 D:\phpStudy\WWW\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 D:\phpStudy\WWW\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 D:\phpStudy\WWW\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\phpStudy\WWW\framework\web\CWebApplication.php(282): CController->run('add')
+#14 D:\phpStudy\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/school/ad...')
+#15 D:\phpStudy\WWW\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 D:\phpStudy\WWW\usho\index.php(14): CApplication->run()
+#17 {main}
+REQUEST_URI=/usho/index.php?r=admin/school/add
+HTTP_REFERER=http://localhost/usho/index.php?r=admin/school/show
+---
+2014/04/02 11:19:31 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'select * from cities where province_id=' at line 1. The SQL statement executed was: SELECT * FROM `cities` `t` WHERE select * from cities where province_id=.
+in D:\phpStudy\WWW\usho\protected\models\Cities.php (17)
+in D:\phpStudy\WWW\usho\protected\modules\admin\views\school\add.php (80)
+in D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php (46)
+2014/04/02 11:19:31 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'select * from cities where province_id=' at line 1. The SQL statement executed was: SELECT * FROM `cities` `t` WHERE select * from cities where province_id=' in D:\phpStudy\WWW\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\phpStudy\WWW\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\phpStudy\WWW\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryAll()
+#2 D:\phpStudy\WWW\framework\db\ar\CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\phpStudy\WWW\usho\protected\models\Cities.php(17): CActiveRecord->findAll('select * from c...')
+#4 D:\phpStudy\WWW\usho\protected\modules\admin\views\school\add.php(80): Cities->getCitiesList(NULL)
+#5 D:\phpStudy\WWW\framework\web\CBaseController.php(126): require('D:\phpStudy\WWW...')
+#6 D:\phpStudy\WWW\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\phpStudy\WWW...', Array, true)
+#7 D:\phpStudy\WWW\framework\web\CController.php(869): CBaseController->renderFile('D:\phpStudy\WWW...', Array, true)
+#8 D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php(46): CController->renderPartial('add', Array)
+#9 D:\phpStudy\WWW\framework\web\actions\CInlineAction.php(49): SchoolController->actionAdd()
+#10 D:\phpStudy\WWW\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 D:\phpStudy\WWW\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 D:\phpStudy\WWW\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\phpStudy\WWW\framework\web\CWebApplication.php(282): CController->run('add')
+#14 D:\phpStudy\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/school/ad...')
+#15 D:\phpStudy\WWW\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 D:\phpStudy\WWW\usho\index.php(14): CApplication->run()
+#17 {main}
+REQUEST_URI=/usho/index.php?r=admin/school/add
+HTTP_REFERER=http://localhost/usho/index.php?r=admin/school/show
+---
+2014/04/02 14:40:05 [error] [php] Undefined variable: cities_model (D:\phpStudy\WWW\usho\protected\modules\admin\views\school\add.php:80)
+Stack trace:
+#0 D:\phpStudy\WWW\framework\web\CController.php(869): SchoolController->renderFile()
+#1 D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php(46): SchoolController->renderPartial()
+#2 D:\phpStudy\WWW\framework\web\actions\CInlineAction.php(49): SchoolController->actionAdd()
+#3 D:\phpStudy\WWW\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\phpStudy\WWW\framework\web\CController.php(286): SchoolController->runAction()
+#5 D:\phpStudy\WWW\framework\web\CController.php(265): SchoolController->runActionWithFilters()
+#6 D:\phpStudy\WWW\framework\web\CWebApplication.php(282): SchoolController->run()
+#7 D:\phpStudy\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\phpStudy\WWW\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\phpStudy\WWW\usho\index.php(14): CWebApplication->run()
+REQUEST_URI=/usho/index.php?r=admin/school/add
+in D:\phpStudy\WWW\usho\protected\modules\admin\views\school\add.php (80)
+in D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php (46)
+in D:\phpStudy\WWW\usho\index.php (14)
+2014/04/02 14:43:33 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1. The SQL statement executed was: select * from cities where province_id=.
+in D:\phpStudy\WWW\usho\protected\models\Cities.php (17)
+in D:\phpStudy\WWW\usho\protected\modules\admin\views\school\add.php (80)
+in D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php (46)
+2014/04/02 14:43:33 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1. The SQL statement executed was: select * from cities where province_id=' in D:\phpStudy\WWW\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\phpStudy\WWW\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\phpStudy\WWW\framework\db\ar\CActiveRecord.php(1581): CDbCommand->queryAll()
+#2 D:\phpStudy\WWW\usho\protected\models\Cities.php(17): CActiveRecord->findAllBySql('select * from c...')
+#3 D:\phpStudy\WWW\usho\protected\modules\admin\views\school\add.php(80): Cities->getCitiesList(NULL)
+#4 D:\phpStudy\WWW\framework\web\CBaseController.php(126): require('D:\phpStudy\WWW...')
+#5 D:\phpStudy\WWW\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\phpStudy\WWW...', Array, true)
+#6 D:\phpStudy\WWW\framework\web\CController.php(869): CBaseController->renderFile('D:\phpStudy\WWW...', Array, true)
+#7 D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php(46): CController->renderPartial('add', Array)
+#8 D:\phpStudy\WWW\framework\web\actions\CInlineAction.php(49): SchoolController->actionAdd()
+#9 D:\phpStudy\WWW\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\phpStudy\WWW\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 D:\phpStudy\WWW\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\phpStudy\WWW\framework\web\CWebApplication.php(282): CController->run('add')
+#13 D:\phpStudy\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/school/ad...')
+#14 D:\phpStudy\WWW\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 D:\phpStudy\WWW\usho\index.php(14): CApplication->run()
+#16 {main}
+REQUEST_URI=/usho/index.php?r=admin/school/add
+HTTP_REFERER=http://localhost/usho/index.php?r=admin/school/show
+---
+2014/04/02 14:44:04 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: select * from cities where province_id=?.
+in D:\phpStudy\WWW\usho\protected\models\Cities.php (17)
+in D:\phpStudy\WWW\usho\protected\modules\admin\views\school\add.php (80)
+in D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php (46)
+2014/04/02 14:44:04 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: select * from cities where province_id=?' in D:\phpStudy\WWW\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\phpStudy\WWW\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\phpStudy\WWW\framework\db\ar\CActiveRecord.php(1581): CDbCommand->queryAll()
+#2 D:\phpStudy\WWW\usho\protected\models\Cities.php(17): CActiveRecord->findAllBySql('select * from c...', Array)
+#3 D:\phpStudy\WWW\usho\protected\modules\admin\views\school\add.php(80): Cities->getCitiesList(NULL)
+#4 D:\phpStudy\WWW\framework\web\CBaseController.php(126): require('D:\phpStudy\WWW...')
+#5 D:\phpStudy\WWW\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\phpStudy\WWW...', Array, true)
+#6 D:\phpStudy\WWW\framework\web\CController.php(869): CBaseController->renderFile('D:\phpStudy\WWW...', Array, true)
+#7 D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php(46): CController->renderPartial('add', Array)
+#8 D:\phpStudy\WWW\framework\web\actions\CInlineAction.php(49): SchoolController->actionAdd()
+#9 D:\phpStudy\WWW\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\phpStudy\WWW\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 D:\phpStudy\WWW\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\phpStudy\WWW\framework\web\CWebApplication.php(282): CController->run('add')
+#13 D:\phpStudy\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/school/ad...')
+#14 D:\phpStudy\WWW\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 D:\phpStudy\WWW\usho\index.php(14): CApplication->run()
+#16 {main}
+REQUEST_URI=/usho/index.php?r=admin/school/add
+HTTP_REFERER=http://localhost/usho/index.php?r=admin/school/show
+---
+2014/04/02 14:45:15 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1. The SQL statement executed was: select * from cities where province_id=.
+in D:\phpStudy\WWW\usho\protected\models\Cities.php (17)
+in D:\phpStudy\WWW\usho\protected\modules\admin\views\school\add.php (80)
+in D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php (46)
+2014/04/02 14:45:15 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1. The SQL statement executed was: select * from cities where province_id=' in D:\phpStudy\WWW\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\phpStudy\WWW\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\phpStudy\WWW\framework\db\ar\CActiveRecord.php(1581): CDbCommand->queryAll()
+#2 D:\phpStudy\WWW\usho\protected\models\Cities.php(17): CActiveRecord->findAllBySql('select * from c...')
+#3 D:\phpStudy\WWW\usho\protected\modules\admin\views\school\add.php(80): Cities->getCitiesList(NULL)
+#4 D:\phpStudy\WWW\framework\web\CBaseController.php(126): require('D:\phpStudy\WWW...')
+#5 D:\phpStudy\WWW\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\phpStudy\WWW...', Array, true)
+#6 D:\phpStudy\WWW\framework\web\CController.php(869): CBaseController->renderFile('D:\phpStudy\WWW...', Array, true)
+#7 D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php(46): CController->renderPartial('add', Array)
+#8 D:\phpStudy\WWW\framework\web\actions\CInlineAction.php(49): SchoolController->actionAdd()
+#9 D:\phpStudy\WWW\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\phpStudy\WWW\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 D:\phpStudy\WWW\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\phpStudy\WWW\framework\web\CWebApplication.php(282): CController->run('add')
+#13 D:\phpStudy\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/school/ad...')
+#14 D:\phpStudy\WWW\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 D:\phpStudy\WWW\usho\index.php(14): CApplication->run()
+#16 {main}
+REQUEST_URI=/usho/index.php?r=admin/school/add
+HTTP_REFERER=http://localhost/usho/index.php?r=admin/school/show
+---
+2014/04/02 14:45:33 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1. The SQL statement executed was: select * from cities where province_id=.
+in D:\phpStudy\WWW\usho\protected\models\Cities.php (17)
+in D:\phpStudy\WWW\usho\protected\modules\admin\views\school\add.php (80)
+in D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php (46)
+2014/04/02 14:45:33 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1. The SQL statement executed was: select * from cities where province_id=' in D:\phpStudy\WWW\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\phpStudy\WWW\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\phpStudy\WWW\framework\db\ar\CActiveRecord.php(1581): CDbCommand->queryAll()
+#2 D:\phpStudy\WWW\usho\protected\models\Cities.php(17): CActiveRecord->findAllBySql('select * from c...')
+#3 D:\phpStudy\WWW\usho\protected\modules\admin\views\school\add.php(80): Cities->getCitiesList(NULL)
+#4 D:\phpStudy\WWW\framework\web\CBaseController.php(126): require('D:\phpStudy\WWW...')
+#5 D:\phpStudy\WWW\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\phpStudy\WWW...', Array, true)
+#6 D:\phpStudy\WWW\framework\web\CController.php(869): CBaseController->renderFile('D:\phpStudy\WWW...', Array, true)
+#7 D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php(46): CController->renderPartial('add', Array)
+#8 D:\phpStudy\WWW\framework\web\actions\CInlineAction.php(49): SchoolController->actionAdd()
+#9 D:\phpStudy\WWW\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\phpStudy\WWW\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 D:\phpStudy\WWW\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\phpStudy\WWW\framework\web\CWebApplication.php(282): CController->run('add')
+#13 D:\phpStudy\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/school/ad...')
+#14 D:\phpStudy\WWW\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 D:\phpStudy\WWW\usho\index.php(14): CApplication->run()
+#16 {main}
+REQUEST_URI=/usho/index.php?r=admin/school/add
+HTTP_REFERER=http://localhost/usho/index.php?r=admin/school/show
+---
+2014/04/02 15:00:02 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1. The SQL statement executed was: SELECT * FROM `cities` `t` WHERE province_id=.
+in D:\phpStudy\WWW\usho\protected\models\Cities.php (17)
+in D:\phpStudy\WWW\usho\protected\modules\admin\views\school\add.php (80)
+in D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php (46)
+2014/04/02 15:00:02 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1. The SQL statement executed was: SELECT * FROM `cities` `t` WHERE province_id=' in D:\phpStudy\WWW\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\phpStudy\WWW\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\phpStudy\WWW\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryAll()
+#2 D:\phpStudy\WWW\framework\db\ar\CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\phpStudy\WWW\usho\protected\models\Cities.php(17): CActiveRecord->findAll('province_id=')
+#4 D:\phpStudy\WWW\usho\protected\modules\admin\views\school\add.php(80): Cities->getCitiesList(NULL)
+#5 D:\phpStudy\WWW\framework\web\CBaseController.php(126): require('D:\phpStudy\WWW...')
+#6 D:\phpStudy\WWW\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\phpStudy\WWW...', Array, true)
+#7 D:\phpStudy\WWW\framework\web\CController.php(869): CBaseController->renderFile('D:\phpStudy\WWW...', Array, true)
+#8 D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php(46): CController->renderPartial('add', Array)
+#9 D:\phpStudy\WWW\framework\web\actions\CInlineAction.php(49): SchoolController->actionAdd()
+#10 D:\phpStudy\WWW\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 D:\phpStudy\WWW\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 D:\phpStudy\WWW\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\phpStudy\WWW\framework\web\CWebApplication.php(282): CController->run('add')
+#14 D:\phpStudy\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/school/ad...')
+#15 D:\phpStudy\WWW\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 D:\phpStudy\WWW\usho\index.php(14): CApplication->run()
+#17 {main}
+REQUEST_URI=/usho/index.php?r=admin/school/add
+HTTP_REFERER=http://localhost/usho/index.php?r=admin/school/show
+---
+2014/04/02 15:14:06 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1. The SQL statement executed was: SELECT * FROM `cities` `t` WHERE province_id=.
+in D:\phpStudy\WWW\usho\protected\models\Cities.php (17)
+in D:\phpStudy\WWW\usho\protected\modules\admin\views\school\add.php (80)
+in D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php (46)
+2014/04/02 15:14:07 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1. The SQL statement executed was: SELECT * FROM `cities` `t` WHERE province_id=' in D:\phpStudy\WWW\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\phpStudy\WWW\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\phpStudy\WWW\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryAll()
+#2 D:\phpStudy\WWW\framework\db\ar\CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\phpStudy\WWW\usho\protected\models\Cities.php(17): CActiveRecord->findAll('province_id=')
+#4 D:\phpStudy\WWW\usho\protected\modules\admin\views\school\add.php(80): Cities->getCitiesList(NULL)
+#5 D:\phpStudy\WWW\framework\web\CBaseController.php(126): require('D:\phpStudy\WWW...')
+#6 D:\phpStudy\WWW\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\phpStudy\WWW...', Array, true)
+#7 D:\phpStudy\WWW\framework\web\CController.php(869): CBaseController->renderFile('D:\phpStudy\WWW...', Array, true)
+#8 D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php(46): CController->renderPartial('add', Array)
+#9 D:\phpStudy\WWW\framework\web\actions\CInlineAction.php(49): SchoolController->actionAdd()
+#10 D:\phpStudy\WWW\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 D:\phpStudy\WWW\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 D:\phpStudy\WWW\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\phpStudy\WWW\framework\web\CWebApplication.php(282): CController->run('add')
+#14 D:\phpStudy\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/school/ad...')
+#15 D:\phpStudy\WWW\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 D:\phpStudy\WWW\usho\index.php(14): CApplication->run()
+#17 {main}
+REQUEST_URI=/usho/index.php?r=admin/school/add
+HTTP_REFERER=http://localhost/usho/index.php?r=admin/school/show
+---
+2014/04/02 15:17:14 [error] [php] Invalid argument supplied for foreach() (D:\phpStudy\WWW\framework\web\helpers\CHtml.php:2325)
+Stack trace:
+#0 D:\phpStudy\WWW\usho\protected\modules\admin\views\school\add.php(82): CActiveForm->dropDownList()
+#1 D:\phpStudy\WWW\framework\web\CBaseController.php(126): require()
+#2 D:\phpStudy\WWW\framework\web\CBaseController.php(95): SchoolController->renderInternal()
+#3 D:\phpStudy\WWW\framework\web\CController.php(869): SchoolController->renderFile()
+#4 D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php(46): SchoolController->renderPartial()
+#5 D:\phpStudy\WWW\framework\web\actions\CInlineAction.php(49): SchoolController->actionAdd()
+#6 D:\phpStudy\WWW\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 D:\phpStudy\WWW\framework\web\CController.php(286): SchoolController->runAction()
+#8 D:\phpStudy\WWW\framework\web\CController.php(265): SchoolController->runActionWithFilters()
+#9 D:\phpStudy\WWW\framework\web\CWebApplication.php(282): SchoolController->run()
+#10 D:\phpStudy\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\phpStudy\WWW\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 D:\phpStudy\WWW\usho\index.php(14): CWebApplication->run()
+REQUEST_URI=/usho/index.php?r=admin/school/add
+in D:\phpStudy\WWW\usho\protected\modules\admin\views\school\add.php (82)
+in D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php (46)
+in D:\phpStudy\WWW\usho\index.php (14)
+2014/04/02 15:29:05 [error] [exception.CException] exception 'CException' with message 'Cities and its behaviors do not have a method or closure named "getCitiesList".' in D:\phpStudy\WWW\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\phpStudy\WWW\framework\db\ar\CActiveRecord.php(227): CComponent->__call('getCitiesList', Array)
+#1 D:\phpStudy\WWW\usho\protected\modules\admin\views\school\add.php(80): CActiveRecord->__call('getCitiesList', Array)
+#2 D:\phpStudy\WWW\usho\protected\modules\admin\views\school\add.php(80): Cities->getCitiesList(NULL)
+#3 D:\phpStudy\WWW\framework\web\CBaseController.php(126): require('D:\phpStudy\WWW...')
+#4 D:\phpStudy\WWW\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\phpStudy\WWW...', Array, true)
+#5 D:\phpStudy\WWW\framework\web\CController.php(869): CBaseController->renderFile('D:\phpStudy\WWW...', Array, true)
+#6 D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php(46): CController->renderPartial('add', Array)
+#7 D:\phpStudy\WWW\framework\web\actions\CInlineAction.php(49): SchoolController->actionAdd()
+#8 D:\phpStudy\WWW\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\phpStudy\WWW\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\phpStudy\WWW\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\phpStudy\WWW\framework\web\CWebApplication.php(282): CController->run('add')
+#12 D:\phpStudy\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/school/ad...')
+#13 D:\phpStudy\WWW\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\phpStudy\WWW\usho\index.php(14): CApplication->run()
+#15 {main}
+REQUEST_URI=/usho/index.php?r=admin/school/add
+HTTP_REFERER=http://localhost/usho/index.php?r=admin/school/show
+---
+2014/04/02 15:35:40 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1. The SQL statement executed was: SELECT * FROM `cities` `t` WHERE province_id=.
+in D:\phpStudy\WWW\usho\protected\models\Cities.php (17)
+in D:\phpStudy\WWW\usho\protected\modules\admin\views\school\add.php (80)
+in D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php (46)
+2014/04/02 15:35:40 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1. The SQL statement executed was: SELECT * FROM `cities` `t` WHERE province_id=' in D:\phpStudy\WWW\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\phpStudy\WWW\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\phpStudy\WWW\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryAll()
+#2 D:\phpStudy\WWW\framework\db\ar\CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\phpStudy\WWW\usho\protected\models\Cities.php(17): CActiveRecord->findAll('province_id=')
+#4 D:\phpStudy\WWW\usho\protected\modules\admin\views\school\add.php(80): Cities->getCitiesList(NULL)
+#5 D:\phpStudy\WWW\framework\web\CBaseController.php(126): require('D:\phpStudy\WWW...')
+#6 D:\phpStudy\WWW\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\phpStudy\WWW...', Array, true)
+#7 D:\phpStudy\WWW\framework\web\CController.php(869): CBaseController->renderFile('D:\phpStudy\WWW...', Array, true)
+#8 D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php(46): CController->renderPartial('add', Array)
+#9 D:\phpStudy\WWW\framework\web\actions\CInlineAction.php(49): SchoolController->actionAdd()
+#10 D:\phpStudy\WWW\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 D:\phpStudy\WWW\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 D:\phpStudy\WWW\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\phpStudy\WWW\framework\web\CWebApplication.php(282): CController->run('add')
+#14 D:\phpStudy\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/school/ad...')
+#15 D:\phpStudy\WWW\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 D:\phpStudy\WWW\usho\index.php(14): CApplication->run()
+#17 {main}
+REQUEST_URI=/usho/index.php?r=admin/school/add
+HTTP_REFERER=http://localhost/usho/index.php?r=admin/school/show
+---
+2014/04/02 16:15:11 [error] [exception.CException] exception 'CException' with message 'Property "School.Province" is not defined.' in D:\phpStudy\WWW\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\phpStudy\WWW\framework\db\ar\CActiveRecord.php(145): CComponent->__get('Province')
+#1 D:\phpStudy\WWW\framework\base\CModel.php(596): CActiveRecord->__get('Province')
+#2 D:\phpStudy\WWW\usho\protected\modules\admin\views\school\show.php(58): CModel->offsetGet('Province')
+#3 D:\phpStudy\WWW\framework\web\CBaseController.php(126): require('D:\phpStudy\WWW...')
+#4 D:\phpStudy\WWW\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\phpStudy\WWW...', Array, true)
+#5 D:\phpStudy\WWW\framework\web\CController.php(869): CBaseController->renderFile('D:\phpStudy\WWW...', Array, true)
+#6 D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php(19): CController->renderPartial('show', Array)
+#7 D:\phpStudy\WWW\framework\web\actions\CInlineAction.php(49): SchoolController->actionShow()
+#8 D:\phpStudy\WWW\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\phpStudy\WWW\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\phpStudy\WWW\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\phpStudy\WWW\framework\web\CWebApplication.php(282): CController->run('show')
+#12 D:\phpStudy\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/school/sh...')
+#13 D:\phpStudy\WWW\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\phpStudy\WWW\usho\index.php(14): CApplication->run()
+#15 {main}
+REQUEST_URI=/usho/index.php?r=admin/school/show
+HTTP_REFERER=http://localhost/usho/index.php?r=admin/index/left
+---
+2014/04/02 16:15:27 [error] [exception.CException] exception 'CException' with message 'Property "School.Province_id" is not defined.' in D:\phpStudy\WWW\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\phpStudy\WWW\framework\db\ar\CActiveRecord.php(145): CComponent->__get('Province_id')
+#1 D:\phpStudy\WWW\framework\base\CModel.php(596): CActiveRecord->__get('Province_id')
+#2 D:\phpStudy\WWW\usho\protected\modules\admin\views\school\show.php(58): CModel->offsetGet('Province_id')
+#3 D:\phpStudy\WWW\framework\web\CBaseController.php(126): require('D:\phpStudy\WWW...')
+#4 D:\phpStudy\WWW\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\phpStudy\WWW...', Array, true)
+#5 D:\phpStudy\WWW\framework\web\CController.php(869): CBaseController->renderFile('D:\phpStudy\WWW...', Array, true)
+#6 D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php(19): CController->renderPartial('show', Array)
+#7 D:\phpStudy\WWW\framework\web\actions\CInlineAction.php(49): SchoolController->actionShow()
+#8 D:\phpStudy\WWW\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\phpStudy\WWW\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\phpStudy\WWW\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\phpStudy\WWW\framework\web\CWebApplication.php(282): CController->run('show')
+#12 D:\phpStudy\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/school/sh...')
+#13 D:\phpStudy\WWW\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\phpStudy\WWW\usho\index.php(14): CApplication->run()
+#15 {main}
+REQUEST_URI=/usho/index.php?r=admin/school/show
+HTTP_REFERER=http://localhost/usho/index.php?r=admin/index/left
+---
+2014/04/02 16:15:44 [error] [exception.CException] exception 'CException' with message 'Property "School.Provinces_id" is not defined.' in D:\phpStudy\WWW\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\phpStudy\WWW\framework\db\ar\CActiveRecord.php(145): CComponent->__get('Provinces_id')
+#1 D:\phpStudy\WWW\framework\base\CModel.php(596): CActiveRecord->__get('Provinces_id')
+#2 D:\phpStudy\WWW\usho\protected\modules\admin\views\school\show.php(58): CModel->offsetGet('Provinces_id')
+#3 D:\phpStudy\WWW\framework\web\CBaseController.php(126): require('D:\phpStudy\WWW...')
+#4 D:\phpStudy\WWW\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\phpStudy\WWW...', Array, true)
+#5 D:\phpStudy\WWW\framework\web\CController.php(869): CBaseController->renderFile('D:\phpStudy\WWW...', Array, true)
+#6 D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php(19): CController->renderPartial('show', Array)
+#7 D:\phpStudy\WWW\framework\web\actions\CInlineAction.php(49): SchoolController->actionShow()
+#8 D:\phpStudy\WWW\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\phpStudy\WWW\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\phpStudy\WWW\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\phpStudy\WWW\framework\web\CWebApplication.php(282): CController->run('show')
+#12 D:\phpStudy\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/school/sh...')
+#13 D:\phpStudy\WWW\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\phpStudy\WWW\usho\index.php(14): CApplication->run()
+#15 {main}
+REQUEST_URI=/usho/index.php?r=admin/school/show
+HTTP_REFERER=http://localhost/usho/index.php?r=admin/index/left
+---
+2014/04/02 16:15:47 [error] [exception.CException] exception 'CException' with message 'Property "School.Provinces_id" is not defined.' in D:\phpStudy\WWW\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\phpStudy\WWW\framework\db\ar\CActiveRecord.php(145): CComponent->__get('Provinces_id')
+#1 D:\phpStudy\WWW\framework\base\CModel.php(596): CActiveRecord->__get('Provinces_id')
+#2 D:\phpStudy\WWW\usho\protected\modules\admin\views\school\show.php(58): CModel->offsetGet('Provinces_id')
+#3 D:\phpStudy\WWW\framework\web\CBaseController.php(126): require('D:\phpStudy\WWW...')
+#4 D:\phpStudy\WWW\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\phpStudy\WWW...', Array, true)
+#5 D:\phpStudy\WWW\framework\web\CController.php(869): CBaseController->renderFile('D:\phpStudy\WWW...', Array, true)
+#6 D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php(19): CController->renderPartial('show', Array)
+#7 D:\phpStudy\WWW\framework\web\actions\CInlineAction.php(49): SchoolController->actionShow()
+#8 D:\phpStudy\WWW\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\phpStudy\WWW\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\phpStudy\WWW\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\phpStudy\WWW\framework\web\CWebApplication.php(282): CController->run('show')
+#12 D:\phpStudy\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/school/sh...')
+#13 D:\phpStudy\WWW\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\phpStudy\WWW\usho\index.php(14): CApplication->run()
+#15 {main}
+REQUEST_URI=/usho/index.php?r=admin/school/show
+HTTP_REFERER=http://localhost/usho/index.php?r=admin/index/left
+---
+2014/04/02 16:28:12 [error] [exception.CException] exception 'CException' with message 'Property "School.name" is not defined.' in D:\phpStudy\WWW\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\phpStudy\WWW\framework\db\ar\CActiveRecord.php(145): CComponent->__get('name')
+#1 D:\phpStudy\WWW\framework\base\CModel.php(596): CActiveRecord->__get('name')
+#2 D:\phpStudy\WWW\usho\protected\modules\admin\views\school\show.php(58): CModel->offsetGet('name')
+#3 D:\phpStudy\WWW\framework\web\CBaseController.php(126): require('D:\phpStudy\WWW...')
+#4 D:\phpStudy\WWW\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\phpStudy\WWW...', Array, true)
+#5 D:\phpStudy\WWW\framework\web\CController.php(869): CBaseController->renderFile('D:\phpStudy\WWW...', Array, true)
+#6 D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php(19): CController->renderPartial('show', Array)
+#7 D:\phpStudy\WWW\framework\web\actions\CInlineAction.php(49): SchoolController->actionShow()
+#8 D:\phpStudy\WWW\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\phpStudy\WWW\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\phpStudy\WWW\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\phpStudy\WWW\framework\web\CWebApplication.php(282): CController->run('show')
+#12 D:\phpStudy\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/school/sh...')
+#13 D:\phpStudy\WWW\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\phpStudy\WWW\usho\index.php(14): CApplication->run()
+#15 {main}
+REQUEST_URI=/usho/index.php?r=admin/school/show
+HTTP_REFERER=http://localhost/usho/index.php?r=admin/index/left
+---
+2014/04/02 16:28:31 [error] [exception.CException] exception 'CException' with message 'Property "School.Provinces" is not defined.' in D:\phpStudy\WWW\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\phpStudy\WWW\framework\db\ar\CActiveRecord.php(145): CComponent->__get('Provinces')
+#1 D:\phpStudy\WWW\framework\base\CModel.php(596): CActiveRecord->__get('Provinces')
+#2 D:\phpStudy\WWW\usho\protected\modules\admin\views\school\show.php(58): CModel->offsetGet('Provinces')
+#3 D:\phpStudy\WWW\framework\web\CBaseController.php(126): require('D:\phpStudy\WWW...')
+#4 D:\phpStudy\WWW\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\phpStudy\WWW...', Array, true)
+#5 D:\phpStudy\WWW\framework\web\CController.php(869): CBaseController->renderFile('D:\phpStudy\WWW...', Array, true)
+#6 D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php(19): CController->renderPartial('show', Array)
+#7 D:\phpStudy\WWW\framework\web\actions\CInlineAction.php(49): SchoolController->actionShow()
+#8 D:\phpStudy\WWW\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\phpStudy\WWW\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\phpStudy\WWW\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\phpStudy\WWW\framework\web\CWebApplication.php(282): CController->run('show')
+#12 D:\phpStudy\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/school/sh...')
+#13 D:\phpStudy\WWW\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\phpStudy\WWW\usho\index.php(14): CApplication->run()
+#15 {main}
+REQUEST_URI=/usho/index.php?r=admin/school/show
+HTTP_REFERER=http://localhost/usho/index.php?r=admin/index/left
+---
+2014/04/02 16:28:41 [error] [exception.CException] exception 'CException' with message 'Property "School.Provinces_id" is not defined.' in D:\phpStudy\WWW\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\phpStudy\WWW\framework\db\ar\CActiveRecord.php(145): CComponent->__get('Provinces_id')
+#1 D:\phpStudy\WWW\framework\base\CModel.php(596): CActiveRecord->__get('Provinces_id')
+#2 D:\phpStudy\WWW\usho\protected\modules\admin\views\school\show.php(58): CModel->offsetGet('Provinces_id')
+#3 D:\phpStudy\WWW\framework\web\CBaseController.php(126): require('D:\phpStudy\WWW...')
+#4 D:\phpStudy\WWW\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\phpStudy\WWW...', Array, true)
+#5 D:\phpStudy\WWW\framework\web\CController.php(869): CBaseController->renderFile('D:\phpStudy\WWW...', Array, true)
+#6 D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php(19): CController->renderPartial('show', Array)
+#7 D:\phpStudy\WWW\framework\web\actions\CInlineAction.php(49): SchoolController->actionShow()
+#8 D:\phpStudy\WWW\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\phpStudy\WWW\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\phpStudy\WWW\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\phpStudy\WWW\framework\web\CWebApplication.php(282): CController->run('show')
+#12 D:\phpStudy\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/school/sh...')
+#13 D:\phpStudy\WWW\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\phpStudy\WWW\usho\index.php(14): CApplication->run()
+#15 {main}
+REQUEST_URI=/usho/index.php?r=admin/school/show
+HTTP_REFERER=http://localhost/usho/index.php?r=admin/index/left
+---
+2014/04/02 16:44:41 [error] [php] Undefined variable: school_models (D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php:27)
+Stack trace:
+#0 D:\phpStudy\WWW\framework\web\CController.php(286): SchoolController->runAction()
+#1 D:\phpStudy\WWW\framework\web\CController.php(265): SchoolController->runActionWithFilters()
+#2 D:\phpStudy\WWW\framework\web\CWebApplication.php(282): SchoolController->run()
+#3 D:\phpStudy\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\phpStudy\WWW\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\phpStudy\WWW\usho\index.php(14): CWebApplication->run()
+REQUEST_URI=/usho/index.php?r=admin/school/show
+in D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php (27)
+in D:\phpStudy\WWW\usho\index.php (14)
+2014/04/02 16:45:07 [error] [php] Undefined variable: school_name (D:\phpStudy\WWW\usho\protected\modules\admin\views\school\show.php:100)
+Stack trace:
+#0 D:\phpStudy\WWW\framework\web\CController.php(869): SchoolController->renderFile()
+#1 D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php(27): SchoolController->renderPartial()
+#2 D:\phpStudy\WWW\framework\web\actions\CInlineAction.php(49): SchoolController->actionShow()
+#3 D:\phpStudy\WWW\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\phpStudy\WWW\framework\web\CController.php(286): SchoolController->runAction()
+#5 D:\phpStudy\WWW\framework\web\CController.php(265): SchoolController->runActionWithFilters()
+#6 D:\phpStudy\WWW\framework\web\CWebApplication.php(282): SchoolController->run()
+#7 D:\phpStudy\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\phpStudy\WWW\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\phpStudy\WWW\usho\index.php(14): CWebApplication->run()
+REQUEST_URI=/usho/index.php?r=admin/school/show
+in D:\phpStudy\WWW\usho\protected\modules\admin\views\school\show.php (100)
+in D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php (27)
+in D:\phpStudy\WWW\usho\index.php (14)
+2014/04/02 16:46:07 [error] [php] Undefined variable: school_name (D:\phpStudy\WWW\usho\protected\modules\admin\views\school\show.php:100)
+Stack trace:
+#0 D:\phpStudy\WWW\framework\web\CController.php(869): SchoolController->renderFile()
+#1 D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php(27): SchoolController->renderPartial()
+#2 D:\phpStudy\WWW\framework\web\actions\CInlineAction.php(49): SchoolController->actionShow()
+#3 D:\phpStudy\WWW\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\phpStudy\WWW\framework\web\CController.php(286): SchoolController->runAction()
+#5 D:\phpStudy\WWW\framework\web\CController.php(265): SchoolController->runActionWithFilters()
+#6 D:\phpStudy\WWW\framework\web\CWebApplication.php(282): SchoolController->run()
+#7 D:\phpStudy\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\phpStudy\WWW\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\phpStudy\WWW\usho\index.php(14): CWebApplication->run()
+REQUEST_URI=/usho/index.php?r=admin/school/show
+in D:\phpStudy\WWW\usho\protected\modules\admin\views\school\show.php (100)
+in D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php (27)
+in D:\phpStudy\WWW\usho\index.php (14)
+2014/04/02 16:47:59 [error] [php] Undefined variable: school_name (D:\phpStudy\WWW\usho\protected\modules\admin\views\school\show.php:100)
+Stack trace:
+#0 D:\phpStudy\WWW\framework\web\CController.php(869): SchoolController->renderFile()
+#1 D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php(27): SchoolController->renderPartial()
+#2 D:\phpStudy\WWW\framework\web\actions\CInlineAction.php(49): SchoolController->actionShow()
+#3 D:\phpStudy\WWW\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\phpStudy\WWW\framework\web\CController.php(286): SchoolController->runAction()
+#5 D:\phpStudy\WWW\framework\web\CController.php(265): SchoolController->runActionWithFilters()
+#6 D:\phpStudy\WWW\framework\web\CWebApplication.php(282): SchoolController->run()
+#7 D:\phpStudy\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\phpStudy\WWW\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\phpStudy\WWW\usho\index.php(14): CWebApplication->run()
+REQUEST_URI=/usho/index.php?r=admin/school/show
+in D:\phpStudy\WWW\usho\protected\modules\admin\views\school\show.php (100)
+in D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php (27)
+in D:\phpStudy\WWW\usho\index.php (14)
+2014/04/02 16:49:04 [error] [php] Undefined variable: school_name (D:\phpStudy\WWW\usho\protected\modules\admin\views\school\show.php:100)
+Stack trace:
+#0 D:\phpStudy\WWW\framework\web\CController.php(869): SchoolController->renderFile()
+#1 D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php(27): SchoolController->renderPartial()
+#2 D:\phpStudy\WWW\framework\web\actions\CInlineAction.php(49): SchoolController->actionShow()
+#3 D:\phpStudy\WWW\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\phpStudy\WWW\framework\web\CController.php(286): SchoolController->runAction()
+#5 D:\phpStudy\WWW\framework\web\CController.php(265): SchoolController->runActionWithFilters()
+#6 D:\phpStudy\WWW\framework\web\CWebApplication.php(282): SchoolController->run()
+#7 D:\phpStudy\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\phpStudy\WWW\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\phpStudy\WWW\usho\index.php(14): CWebApplication->run()
+REQUEST_URI=/usho/index.php?r=admin/school/show
+in D:\phpStudy\WWW\usho\protected\modules\admin\views\school\show.php (100)
+in D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php (27)
+in D:\phpStudy\WWW\usho\index.php (14)
+2014/04/02 16:49:06 [error] [php] Undefined variable: school_name (D:\phpStudy\WWW\usho\protected\modules\admin\views\school\show.php:100)
+Stack trace:
+#0 D:\phpStudy\WWW\framework\web\CController.php(869): SchoolController->renderFile()
+#1 D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php(27): SchoolController->renderPartial()
+#2 D:\phpStudy\WWW\framework\web\actions\CInlineAction.php(49): SchoolController->actionShow()
+#3 D:\phpStudy\WWW\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\phpStudy\WWW\framework\web\CController.php(286): SchoolController->runAction()
+#5 D:\phpStudy\WWW\framework\web\CController.php(265): SchoolController->runActionWithFilters()
+#6 D:\phpStudy\WWW\framework\web\CWebApplication.php(282): SchoolController->run()
+#7 D:\phpStudy\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\phpStudy\WWW\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\phpStudy\WWW\usho\index.php(14): CWebApplication->run()
+REQUEST_URI=/usho/index.php?r=admin/school/show
+in D:\phpStudy\WWW\usho\protected\modules\admin\views\school\show.php (100)
+in D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php (27)
+in D:\phpStudy\WWW\usho\index.php (14)
+2014/04/02 17:00:42 [error] [php] Undefined variable: page_list (D:\phpStudy\WWW\usho\protected\modules\admin\views\school\show.php:82)
+Stack trace:
+#0 D:\phpStudy\WWW\framework\web\CController.php(869): SchoolController->renderFile()
+#1 D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php(23): SchoolController->renderPartial()
+#2 D:\phpStudy\WWW\framework\web\actions\CInlineAction.php(49): SchoolController->actionShow()
+#3 D:\phpStudy\WWW\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\phpStudy\WWW\framework\web\CController.php(286): SchoolController->runAction()
+#5 D:\phpStudy\WWW\framework\web\CController.php(265): SchoolController->runActionWithFilters()
+#6 D:\phpStudy\WWW\framework\web\CWebApplication.php(282): SchoolController->run()
+#7 D:\phpStudy\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\phpStudy\WWW\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\phpStudy\WWW\usho\index.php(14): CWebApplication->run()
+REQUEST_URI=/usho/index.php?r=admin/school/show
+in D:\phpStudy\WWW\usho\protected\modules\admin\views\school\show.php (82)
+in D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php (23)
+in D:\phpStudy\WWW\usho\index.php (14)
+2014/04/02 17:03:55 [error] [php] Missing argument 1 for Pagination::__construct(), called in D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php on line 20 and defined (D:\phpStudy\WWW\usho\protected\components\Pagination.php:15)
+Stack trace:
+#0 D:\phpStudy\WWW\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\phpStudy\WWW\framework\web\CController.php(286): SchoolController->runAction()
+#2 D:\phpStudy\WWW\framework\web\CController.php(265): SchoolController->runActionWithFilters()
+#3 D:\phpStudy\WWW\framework\web\CWebApplication.php(282): SchoolController->run()
+#4 D:\phpStudy\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\phpStudy\WWW\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\phpStudy\WWW\usho\index.php(14): CWebApplication->run()
+REQUEST_URI=/usho/index.php?r=admin/school/show
+in D:\phpStudy\WWW\usho\protected\components\Pagination.php (15)
+in D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php (20)
+in D:\phpStudy\WWW\usho\index.php (14)
+2014/04/02 17:08:27 [error] [php] Undefined variable: school_info (D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php:28)
+Stack trace:
+#0 D:\phpStudy\WWW\framework\web\CController.php(286): SchoolController->runAction()
+#1 D:\phpStudy\WWW\framework\web\CController.php(265): SchoolController->runActionWithFilters()
+#2 D:\phpStudy\WWW\framework\web\CWebApplication.php(282): SchoolController->run()
+#3 D:\phpStudy\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\phpStudy\WWW\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\phpStudy\WWW\usho\index.php(14): CWebApplication->run()
+REQUEST_URI=/usho/index.php?r=admin/school/show
+in D:\phpStudy\WWW\usho\protected\modules\admin\controllers\SchoolController.php (28)
+in D:\phpStudy\WWW\usho\index.php (14)
+2014/04/03 08:33:49 [error] [exception.CException] exception 'CException' with message 'Property "LoginForm.username" is not defined.' in D:\phpStudy\WWW\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\phpStudy\WWW\framework\web\helpers\CHtml.php(2529): CComponent->__get('username')
+#1 D:\phpStudy\WWW\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(LoginForm), 'username')
+#2 D:\phpStudy\WWW\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(LoginForm), 'username', Array)
+#3 D:\phpStudy\WWW\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(LoginForm), 'username', Array)
+#4 D:\phpStudy\WWW\usho\protected\views\site\login.php(29): CActiveForm->textField(Object(LoginForm), 'username')
+#5 D:\phpStudy\WWW\framework\web\CBaseController.php(126): require('D:\phpStudy\WWW...')
+#6 D:\phpStudy\WWW\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\phpStudy\WWW...', Array, true)
+#7 D:\phpStudy\WWW\framework\web\CController.php(869): CBaseController->renderFile('D:\phpStudy\WWW...', Array, true)
+#8 D:\phpStudy\WWW\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#9 D:\phpStudy\WWW\usho\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#10 D:\phpStudy\WWW\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#11 D:\phpStudy\WWW\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 D:\phpStudy\WWW\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 D:\phpStudy\WWW\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 D:\phpStudy\WWW\framework\web\CWebApplication.php(282): CController->run('login')
+#15 D:\phpStudy\WWW\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#16 D:\phpStudy\WWW\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 D:\phpStudy\WWW\usho\index.php(14): CApplication->run()
+#18 {main}
+REQUEST_URI=/usho/index.php?r=site/login
+HTTP_REFERER=http://localhost/usho/index.php?r=site/index
+---
